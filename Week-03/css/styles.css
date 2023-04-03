@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    width: 90%;
+    margin-left: 53px;
+    margin-right: 53px;
+    position: relative;
+}
+.icons{
+    float: right;
+}
+.menu{
+    float: left;
+    width: 40px;
+    height: 42px;
+    margin-right: 40px;
+}
+h1{
+    color: #49a37b;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    text-shadow: 0px 4px 4px;
+}
+.presentation1{
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.presentation-section{
+    margin-left: 80px;
+}
+h2{
+    color: #49a37b;
+    font-size: 32px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+h3{
+    color: #49a37b;
+    font-family: Roboto Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+ .imagen-gym{
+    width: 570px;
+    height: 130x;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+ }
+.introduction-txt{
+    color: #000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    text-align: left;
+    text-align: justify;
+    text-align: initial;
+    margin-right: 200px;
+}
+.learn-more{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #373867;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-color: white;
+    border-color: #49a37b;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 14px 36px;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.funtions{
+    font-family: Reboto, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #49a37b;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.funtions-item1{
+    display: inline-block;
+    width: 40%;
+    position: relative;
+}
+.calendar-icon{
+    position: absolute;
+    right: 50;
+    top: 5;
+}
+.funtionfirst{
+    display: inline-block;
+    width: 70%;
+}
+.column{
+    display: flex;
+}
+.funtion-tittle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #49A37B;
+}
+.funtion-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.aboutus-section{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 100px;
+    display: inline-block;
+    margin bottom: 100px;
+}
+.about-us{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #49A37B;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 0;
+}
+.description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 200px;
+    float: right;
+    margin-top: 0px;
+}
+.inquiries-section{
+    position: absolute;
+    margin-top: 70px;
+}
+.inquiry-request{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+    color: #49A37B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 40px;
+    margin-top: 2px;
+}
+.data-form input{
+    width: 450px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.inquiry-column{
+    float: left;
+    width: 50%;
+}
+.data-form{
+    margin-left: 5px;
+    padding: 15px;
+}
+.message textarea{
+    margin-left: 20px;
+    width: 1200px;
+    height: 200px;
+}
+.send-button{
+    width: 76px;
+    height: 34px;
+    left: 120px;
+    top: 2164px;
+    background: #AACE9B;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 14px;
+    text-align: center;
+    color: #373867;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.motive{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #49A37B;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.checkbox{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #373867;
+    padding: 16px;
+}
+
+.membershipandclasses{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display: flex;
+    margin-top: 650px;
+}
+h4{
+    font-family: 'Roboto'; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #49A37B;
+}
+ul{
+    list-style: circle;
+}
+.classes-list{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;   
+    color: #373867;
+    display: block;
+    margin-left: 1px;
+    line-height: 20px;
+}
+.classes{
+    display: block;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.blackmembership{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;   
+    color: #373867;
+    margin-top: 4px;
+    line-height: 20px;
+}
+.membership{
+    display: block;
+    margin-left: 2px;
+    margin-right: 100px;
+}
+.classic-membership{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;   
+    color: #373867;
+    display: block;
+    line-height: 20px;
+}
+.onlyclass-membership{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;   
+    color: #373867;
+    display: block;
+    line-height: 20px;
+}
+footer{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: -10%;
