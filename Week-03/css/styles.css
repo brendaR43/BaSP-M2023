@@ -272,12 +272,6 @@ ul{
     text-align: center;
     margin-top: 400px;
 }
-footer{
-    position: absolute;
-    margin-left: 400px;
-    margin-top: 170px;
-    font-weight: 1200;
-}
 .facebook-icon{
     position: absolute;
     margin-left: 50px;
@@ -292,4 +286,10 @@ footer{
     position: absolute;
     margin-left: 240px;
     margin-top: -185px;
+}
+footer{
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 170px;
+    font-weight: 1000;
 }
