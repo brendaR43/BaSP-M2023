@@ -1,0 +1,47 @@
+
+h4 {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.learn-more {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #373867;
+    flex-grow: 0;
+    background-color: white;
+    border-color: #49a37b;
+    border-radius: 5px;
+    padding: 14px 36px;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 400;
+}
+
+.presentation-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./LOGO-RR.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .7;
+}
+
+.introduction-txt {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
