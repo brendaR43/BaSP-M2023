@@ -95,7 +95,6 @@ h5 {
     line-height: 50px;
     text-align: center;
 }
-
 ul {
     list-style: inside circle;
 }
@@ -115,6 +114,9 @@ ul {
     }
     .inquiries-section-desktop {
         display: none;
+    }
+    .message-section {
+        visibility: hidden;
     }
 }
 
@@ -207,12 +209,16 @@ ul {
         margin-top: 20px;
         text-align: center;
     }
+    .message-section {
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width:1024px){
     .inquiries-desktop {
         display: none;
     }
+    
 }
 
 @media screen and (min-width:1024px) { /*desktop*/
@@ -358,6 +364,9 @@ ul {
         margin-left: -55px;
         padding-top: 15px;
         line-height: 40px;
+    }
+    .message-section {
+        visibility: visible;
     }
 
 }
