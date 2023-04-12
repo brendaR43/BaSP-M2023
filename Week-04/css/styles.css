@@ -99,7 +99,7 @@ ul {
     list-style: inside circle;
 }
 
-@media screen and (max-width: 600px) { /*mobile section*/
+@media screen and (max-width: 600px) {
     .icons-section {
         display: none;
     }
@@ -120,7 +120,7 @@ ul {
     }
 }
 
-@media screen and (min-width:601px) { /*tablet*/
+@media screen and (min-width:601px) {
     .desktop-section {
         display: none;
     }
@@ -221,7 +221,7 @@ ul {
     
 }
 
-@media screen and (min-width:1024px) { /*desktop*/
+@media screen and (min-width:1024px) {
     .functions-item{
         padding-top: 20px;
         display: flex;
