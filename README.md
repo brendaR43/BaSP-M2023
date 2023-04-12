@@ -10,7 +10,7 @@ We created an HTML document with the same content as the landing of the screenfl
 We included the styles corresponding to the HTML structure of week 02 to make the page look identical to the first week's screenflow landing page in desktop view.
 
 ## Week 04
-We replicated the landing page of the screenflow of Week-01, using Flexbox to create a responsive design following the Mobile First concept.
+We replicated the landing page of the screenflow of Week-01, using Flexbox to create a responsive design following the Mobile first concept.
 
 ## Authors
 - Brenda Romero
