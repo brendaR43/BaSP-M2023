@@ -1,4 +1,4 @@
-//Ejercicio 1. Variables y Operadores
+//Exercise 1. Variables and Operators
 
 //a
 var a= 59;
@@ -13,10 +13,12 @@ var fullName= firstName + ' ' + lastName;
 console.log(fullName);
 
 //c
-var adress= 'España 856';
+var adress= 'Caferata 49856';
 var city= 'Rosario';
 var datalenght= adress.length + city.length;
 console.log(datalenght);
+
+
 
 
 
