@@ -1,4 +1,4 @@
-console.log('--EXERCISE 4: IF ELSE');
+console.log('--EXERCISE 5: FOR');
 /*Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta 
 por cada palabra modificada.*/
 console.log('-Exercise 5.a:');

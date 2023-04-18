@@ -4,10 +4,10 @@ console.log('--EXERCISE 4: IF ELSE');
 o igual que 0,5 mostrar una alerta con el mensaje “Greater than or equal to 0,5” y sino un alerta con el 
 mensaje “Lower than 0,5”.*/
 console.log('-Exercise 4.a:');
-var random_number= Math.random();
-console.log(random_number);
+var randomNumber= Math.random();
+console.log(randomNumber);
 
-if (random_number >= 0.5) {
+if (randomNumber >= 0.5) {
     console.log('Greater than or equal to 0,5');
 } else {
     console.log('Lower than 0,5');
@@ -22,19 +22,29 @@ if (random_number >= 0.5) {
 “Adulto mayor” entre 61 y 75 años;
 “Anciano” si es mayor a 75 años.*/
 console.log('-Exercise 4.b:');
-var Age= 52;
-if (Age < 2) {
+var age= 52;
+if (age < 2) {
     console.log('Bebe');
-} else if ((Age >= 2) && (Age <= 12)){
+} else if ((age >= 2) && (age <= 12)){
     console.log('Niño');
-} else if ((Age > 12) && (Age <=19)){
+} else if ((age > 12) && (age <=19)){
     console.log('Adolescente');
-} else if ((Age >= 20) && (Age <=30)){
+} else if ((age >= 20) && (age <=30)){
     console.log('Joven');
-} else if ((Age >= 31) && (Age <=60)){
+} else if ((age >= 31) && (age <=60)){
     console.log('Adulto');
-} else if ((Age >= 61) && (Age <=75)){
+} else if ((age >= 61) && (age <=75)){
     console.log('Adulto mayor');
-} else if ((Age >75)) {
+} else if ((age >75)) {
     console.log('Anciano');
+}
+
+
+console.log('-Exercise 6.c:');
+function validarInterger(c, d) {
+    if (Number.isInteger(c && d)) {
+        return true;
+    } else {
+        return false;
+    }
 }

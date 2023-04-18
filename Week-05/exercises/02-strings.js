@@ -10,30 +10,30 @@ console.log(today.toUpperCase());
  los primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
 console.log('-Exercise 2.b:');
 var yesterday= 'Yesterday was Friday and it rained';
-var Yesterdaywas= yesterday.substring(0,5);
-console.log(Yesterdaywas);
+var YesterdayWas= yesterday.substring(0,5);
+console.log(YesterdayWas);
 
 /* c. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con
  los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
 console.log('-Exercise 2.c:');
 var tomorrow= 'Tomorrow is Sunday and I am going to church';
-var tomorrowis= tomorrow.substring(40,43);
-console.log(tomorrowis);
+var tomorrowIs= tomorrow.substring(40,43);
+console.log(tomorrowIs);
 
 /* d. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con 
 la primera letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva variable
  (utilizar substring, toUpperCase, toLowerCase y el operador +).*/
 console.log('-Exercise 2.d:');
 var JavaScript= 'JavaScript is a programming language';
-var JavaScript_is= JavaScript[0].toUpperCase() + JavaScript.substring(1);
-console.log(JavaScript_is);
+var JavaScriptIs= JavaScript[0].toUpperCase() + JavaScript.substring(1);
+console.log(JavaScriptIs);
 
 /* e. Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. 
 Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).*/
 console.log('-Exercise 2.e:');
 var operator= 'An operator is a mathematical symbol';
-var mathematical_symbol= operator.indexOf(' ');
-console.log(mathematical_symbol);
+var mathematicalSymbol= operator.indexOf(' ');
+console.log(mathematicalSymbol);
 
 /* f. Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio). 
 Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra de ambas 
