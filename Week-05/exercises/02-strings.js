@@ -16,15 +16,15 @@ console.log(YesterdayWas);
 /* c. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con
  los últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
 console.log('-Exercise 2.c:');
-var tomorrow= 'Tomorrow is Sunday and I am going to church';
-var tomorrowIs= tomorrow.substring(40,43);
-console.log(tomorrowIs);
+var JavaScriptIsNot= 'JavaScript is not the same as the Java programming language';
+var JavaScript_= JavaScriptIsNot.substring(56,60);
+console.log(JavaScript_);
 
 /* d. Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con 
 la primera letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva variable
  (utilizar substring, toUpperCase, toLowerCase y el operador +).*/
 console.log('-Exercise 2.d:');
-var JavaScript= 'JavaScript is a programming language';
+var JavaScript= 'javaScript is a programming language';
 var JavaScriptIs= JavaScript[0].toUpperCase() + JavaScript.substring(1);
 console.log(JavaScriptIs);
 

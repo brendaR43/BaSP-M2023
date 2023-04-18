@@ -2,13 +2,12 @@
 
 body {
     width: 90%;
-    margin-left: 53px;
-    margin-right: 53px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-family: Roboto, Arial, sans-serif;
     font-size: 20px;
     text-align: center;
 }
-
 h2 {
     font-weight: 500;
     font-size: 40px;
@@ -18,7 +17,6 @@ h2 {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 20px;
 }
-
 h5 {
     font-weight: 500;
     font-size: 30px;
@@ -31,17 +29,17 @@ h5 {
     justify-content: center;
     align-items: center;
 }
-
+.rocketgymimage {
+    display: none;
+}
 .functions-section {
     border-top: 1px solid black;
 }
-
 .aboutus-section {
     margin-top: 20px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
-
 .description { 
     margin-top: 20px;
     margin-bottom: 20px;
@@ -49,20 +47,28 @@ h5 {
     margin-right: 30%;
     font-size: 16px;
 }
-
 .data-form input {
-    width: 450px;
+    width: 200px;
     padding-bottom: 15px;
     margin-bottom: 30px;
 }
-
 .data-form textarea {
-    width: 450px;
+    width: 200px;
     height: 100px;
 }
-
 .inquiries-section {
     border-bottom: 1px solid black;
+}
+.inquiry-request {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: left;
+    color: #49A37B;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 40px;
+    margin-top: 2px;
+    margin-bottom: 25px;
 }
 .send-button {
     width: 76px;
@@ -78,7 +84,33 @@ h5 {
     margin-top: 20px;
     border-color: #AACE9B;
 }
-
+.activities {
+    border-top: 1px solid black;
+}
+.icons-section {
+    display: none;
+}
+.aboutus-section .description {
+    display: none;
+}
+.rocketgymimage {
+    display: none;
+}
+.tittle-presentation {
+    display: none;
+}
+.motive{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    color: #49A37B;
+    margin-top: -20px;
+    margin-right: 85%;
+    text-align: center;
+}
+.message-section {
+    visibility: hidden;
+}
 .send {
     font-weight: 600;
     font-size: 12px;
@@ -86,7 +118,20 @@ h5 {
     text-align: center;  
     color: #373867;
 }
-
+.send-button0001 {
+    width: 76px;
+    height: 34px;
+    left: 120px;
+    top: 2164px;
+    background: #AACE9B;
+    border-radius: 5px;
+    line-height: 14px;
+    text-align: center;
+    color: #373867;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-color: #AACE9B;
+}
 .checkbox {
     font-weight: 500;
     font-size: 24px;
@@ -99,27 +144,20 @@ ul {
     list-style: inside circle;
 }
 
-@media screen and (max-width: 600px) {
-    .icons-section {
-        display: none;
+@media screen and (min-width:2px){
+    .data-form input {
+        width: 400px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
     }
-    .aboutus-section .description {
-        display: none;
-    }
-    .rocketgymimage {
-        display: none;
-    }
-    .tittle-presentation {
-        display: none;
+    .data-form textarea {
+        width: 400px;
+        height: 100px;
     }
     .inquiries-section-desktop {
         display: none;
     }
-    .message-section {
-        visibility: hidden;
-    }
 }
-
 @media screen and (min-width:601px) {
     .desktop-section {
         display: none;
@@ -138,7 +176,6 @@ ul {
         margin-right: 50%;
         margin-bottom: 20px;
     }
-
     main .rocketgymimage {
         float: right;
         margin-left: 50%;
@@ -212,16 +249,16 @@ ul {
     .message-section {
         visibility: hidden;
     }
-}
-
-@media screen and (max-width:1024px){
-    .inquiries-desktop {
-        display: none;
+    .inquiries-section-desktop {
+        visibility: hidden;
     }
-    
+
 }
 
 @media screen and (min-width:1024px) {
+    .inquiries-section-desktop {
+        visibility: hidden;
+    }
     .functions-item{
         padding-top: 20px;
         display: flex;
@@ -285,14 +322,6 @@ ul {
     .inquiries-desktop, .functions-column, .inquiry-column2 {
         display: flex;
     }
-    .motive{
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 48px;
-        color: #49A37B;
-        margin-top: -20px;
-        margin-right: 85%;
-    }
     .motive-form {
         margin-bottom: 30px;
         margin-top: 30px;
@@ -307,17 +336,6 @@ ul {
         padding: 15px;
         margin-left: 15px;
         text-align: justify;
-    }
-    .inquiry-request {
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 47px;
-        text-align: left;
-        color: #49A37B;
-        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        margin-left: 40px;
-        margin-top: 2px;
-        margin-bottom: 25px;
     }
     .message textarea{
         margin-left: 0%;
