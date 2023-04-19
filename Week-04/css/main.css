@@ -4,7 +4,6 @@ h4 {
     font-size: 25px;
     line-height: 29px;
 }
-
 .learn-more {
     font-weight: 500;
     font-size: 16px;
@@ -19,26 +18,21 @@ h4 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 main {
     display: flex;
     flex-direction: column;
-
     font-weight: 400;
 }
-
 .presentation-section {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-image: url(./LOGO-RR.svg);
+    background-image: url(../assets/img/LOGO-RR.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     opacity: .7;
 }
-
 .introduction-txt {
     text-align: center;
     margin-left: 25%;

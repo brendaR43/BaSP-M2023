@@ -11,9 +11,11 @@ We included the styles corresponding to the HTML structure of week 02 to make th
 
 ## Week 04
 We replicated the landing page of the screenflow of Week-01, using Flexbox to create a responsive design following the Mobile first concept.
+https://brendar43.github.io/BaSP-M2023/Week-04/
 
 ## Week 05
 We had to perform the JavaScript exercises provided, applying concepts learned in the asynchronous material. We also had to correct the errors of the previous problem.
+https://brendar43.github.io/BaSP-M2023/Week-05/index.html
 
 ## Authors
 - Brenda Romero

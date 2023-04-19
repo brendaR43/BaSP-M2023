@@ -26,7 +26,6 @@ h5 {
 }
 .introduction-icons {
     margin-left: 10px;
-    justify-content: center;
     align-items: center;
 }
 .rocketgymimage {
@@ -51,13 +50,12 @@ h5 {
     width: 200px;
     padding-bottom: 15px;
     margin-bottom: 30px;
+    display: block;
 }
-.data-form textarea {
-    width: 200px;
-    height: 100px;
-}
-.inquiries-section {
-    border-bottom: 1px solid black;
+.message01 {
+    width: 500px;
+    height: 50px;
+    display: block;
 }
 .inquiry-request {
     font-weight: 700;
@@ -104,9 +102,10 @@ h5 {
     font-size: 30px;
     line-height: 48px;
     color: #49A37B;
-    margin-top: -20px;
+    margin-top: 50px;
     margin-right: 85%;
     text-align: center;
+    margin-left: 100px;
 }
 .message-section {
     visibility: hidden;
@@ -117,20 +116,6 @@ h5 {
     line-height: 14px;  
     text-align: center;  
     color: #373867;
-}
-.send-button0001 {
-    width: 76px;
-    height: 34px;
-    left: 120px;
-    top: 2164px;
-    background: #AACE9B;
-    border-radius: 5px;
-    line-height: 14px;
-    text-align: center;
-    color: #373867;
-    margin-left: 20px;
-    margin-top: 20px;
-    border-color: #AACE9B;
 }
 .checkbox {
     font-weight: 500;
@@ -144,20 +129,6 @@ ul {
     list-style: inside circle;
 }
 
-@media screen and (min-width:2px){
-    .data-form input {
-        width: 400px;
-        padding-bottom: 15px;
-        margin-bottom: 30px;
-    }
-    .data-form textarea {
-        width: 400px;
-        height: 100px;
-    }
-    .inquiries-section-desktop {
-        display: none;
-    }
-}
 @media screen and (min-width:601px) {
     .desktop-section {
         display: none;
@@ -196,12 +167,18 @@ ul {
     }
     .functions-item{
         display: flex;
-        justify-content: center;
         align-items: center;
     }
     .functions-section {
         display: flex;
         flex-direction: column;
+    }
+    .data-form input {
+        width: 300px;
+        padding-bottom: 15px;
+        margin-bottom: 30px;
+        display: block;
+        margin-left: 150px;
     }
     .description{
         display: none;
@@ -246,13 +223,9 @@ ul {
         margin-top: 20px;
         text-align: center;
     }
-    .message-section {
-        visibility: hidden;
-    }
     .inquiries-section-desktop {
         visibility: hidden;
     }
-
 }
 
 @media screen and (min-width:1024px) {
@@ -318,7 +291,6 @@ ul {
         margin-right: 48%;
         margin-top: 50px;
     }
-
     .inquiries-desktop, .functions-column, .inquiry-column2 {
         display: flex;
     }
@@ -386,5 +358,7 @@ ul {
     .message-section {
         visibility: visible;
     }
-
+    .message-section-mobile {
+        display: none;
+    }
 }

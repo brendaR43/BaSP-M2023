@@ -40,11 +40,3 @@ if (age < 2) {
 }
 
 
-console.log('-Exercise 6.c:');
-function validarInterger(c, d) {
-    if (Number.isInteger(c && d)) {
-        return true;
-    } else {
-        return false;
-    }
-}

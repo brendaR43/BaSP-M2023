@@ -40,6 +40,9 @@ Utilizar los métodos de los ejercicios anteriores para generar un nuevo string 
 palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el 
 operador +).*/ 
 console.log('-Exercise 2.f:');
-var Eich= 'brendan eich: inventor of javascript';
-var Brendan= Eich
+var eich= 'brendan eich: invented javascript';
+var brendan= eich.indexOf(' ');
+
+
+
 
